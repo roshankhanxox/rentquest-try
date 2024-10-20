@@ -148,7 +148,9 @@ EMAIL_HOST_USER = config("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD")
 
 CORS_ALLOWED_ORIGINS = [
-    "http://127.0.0.1:5500",  # Your frontend URL
+    "http://127.0.0.1:5500",
+    "https://rentquest.vercel.app",
+    "https://rentquest-roshankhanxoxs-projects.vercel.app/"# Your frontend URL
 ]
 
 GOOGLE_MAPS_API_KEY = config("GOOGLE_MAPS_API_KEY")
